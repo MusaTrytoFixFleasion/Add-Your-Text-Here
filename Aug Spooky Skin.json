@@ -1,65 +1,69 @@
-```json
 {
-  "title": "Spooky Buster Halloween Blaster",
-  "description": "Senjata blaster futuristik bertema Halloween dengan bodi ungu, laras oranye, dan berbagai ornamen berupa labu, jaring laba-laba, batu nisan, tengkorak, lilin, serta kuali kecil.",
-  "asset_type": "stylized_3d_game_weapon",
-  "composition": {
-    "aspect_ratio": "1:1",
-    "resolution": "1024x1024",
-    "camera_view": "three-quarter close-up",
-    "orientation": "diagonal, dengan moncong mengarah ke kiri atas",
-    "subject_position": "centered"
-  },
-  "object_details": {
-    "name": "Spooky Buster",
-    "body": "Bodi senjata ungu bergaya angular dengan aksen emas dan bentuk menyerupai peti mati.",
-    "barrel": "Laras oranye besar dengan ujung berbentuk labu Halloween retak dan lubang hitam di bagian moncong.",
-    "decorations": [
-      "jaring laba-laba yang melilit laras",
-      "batu nisan kecil bertuliskan RIP di bagian atas",
-      "asap atau api piksel berwarna turquoise",
-      "kuali hitam kecil berisi cairan hijau yang digantung dengan rantai",
-      "tangan dan jari kerangka berwarna tulang",
-      "lilin putih meleleh di bagian bawah tabung oranye",
-      "wadah transparan berisi objek oranye menyerupai permen",
-      "taring putih pada sisi kanan",
-      "lampu kecil dengan cahaya putih hangat"
-    ]
-  },
-  "visible_text": [
-    {
-      "text": "RIP",
-      "location": "batu nisan di bagian atas"
-    },
-    {
-      "text": "SPOOKY BUSTER",
-      "location": "sisi kanan bodi senjata"
-    }
-  ],
-  "visual_style": {
-    "rendering": "stylized low-poly 3D render",
-    "look": "hand-painted game asset dengan beveled geometry",
-    "detail_level": "high",
-    "mood": "playful, spooky, Halloween"
-  },
-  "color_palette": [
-    "deep purple",
-    "violet",
-    "pumpkin orange",
-    "golden yellow",
-    "turquoise",
-    "bone white",
-    "black"
-  ],
-  "background": {
-    "type": "simple gradient studio backdrop",
-    "colors": [
-      "purple",
-      "magenta",
-      "warm orange"
-    ]
-  },
-  "lighting": "Pencahayaan lembut dengan pantulan hangat pada permukaan oranye dan rim light halus pada bodi ungu.",
-  "generation_prompt": "A highly detailed stylized low-poly 3D Halloween blaster called Spooky Buster, angular purple coffin-shaped body with gold trim, large orange pumpkin-shaped muzzle pointing diagonally toward the upper left, spiderwebs wrapped around the barrel, small RIP tombstone sight, turquoise pixelated smoke, hanging chained cauldron with glowing green liquid, skeletal hands and fingers, melted white candles, small glowing flashlight, transparent container filled with orange candy-like pieces, white fangs on the side, hand-painted fantasy game weapon aesthetic, centered three-quarter product view, soft studio lighting, purple-to-orange gradient background, square composition, no people"
+"title": "Spooky Buster Halloween Blaster",
+"description": "A futuristic Halloween-themed blaster weapon with a purple body, orange barrel, and various ornaments including pumpkins, spiderwebs, tombstones, skulls, candles, and a small cauldron.",
+"asset_type": "stylized_3d_game_weapon",
+"composition": {
+"aspect_ratio": "1:1",
+"resolution": "1024x1024",
+"camera_view": "three-quarter close-up",
+"orientation": "diagonal, with the muzzle pointing toward the upper left",
+"subject_position": "centered"
+},
+"object_details": {
+"name": "Spooky Buster",
+"body": "Angular purple weapon body with gold accents, styled in the shape of a coffin.",
+"barrel": "Large orange barrel featuring a cracked Halloween pumpkin tip with a black hole at the muzzle.",
+"decorations": [
+"spiderwebs wrapped around the barrel",
+"small tombstone with 'RIP' engraved on top",
+"turquoise pixelated smoke or flame effects",
+"small black cauldron containing glowing green liquid, suspended by a chain",
+"bone-colored skeletal hands and fingers",
+"melted white candles at the base of the orange tube",
+"transparent container filled with orange candy-like items",
+"white fangs on the right side",
+"small flashlight casting a warm white glow"
+]
+},
+"animations": {
+"idle": "The small black cauldron sways gently with player movement, white candles emit a subtle flickering light animation, and turquoise pixel smoke continuously flows from the pumpkin muzzle.",
+"firing": "Standard AUG recoil push backwards, accompanied by a burst of turquoise pixel smoke erupting from the pumpkin barrel and rattling the chained cauldron.",
+"reload": "Standard bullpup AUG reload sequence; the player detaches the transparent candy container downward and inserts a fully loaded fresh candy container.",
+"aim_down_sights": "Camera perspective shifts to align directly over the 'RIP' tombstone sight."
+},
+"visible_text": [
+{
+"text": "RIP",
+"location": "tombstone on top"
+},
+{
+"text": "SPOOKY BUSTER",
+"location": "right side of the weapon body"
 }
-```
+],
+"visual_style": {
+"rendering": "stylized low-poly 3D render",
+"look": "hand-painted game asset with beveled geometry",
+"detail_level": "high",
+"mood": "playful, spooky, Halloween"
+},
+"color_palette": [
+"deep purple",
+"violet",
+"pumpkin orange",
+"golden yellow",
+"turquoise",
+"bone white",
+"black"
+],
+"background": {
+"type": "simple gradient studio backdrop",
+"colors": [
+"purple",
+"magenta",
+"warm orange"
+]
+},
+"lighting": "Soft lighting with warm reflections on the orange surfaces and a subtle rim light on the purple body.",
+"generation_prompt": "A highly detailed stylized low-poly 3D Halloween blaster called Spooky Buster, angular purple coffin-shaped body with gold trim, large orange pumpkin-shaped muzzle pointing diagonally toward the upper left, spiderwebs wrapped around the barrel, small RIP tombstone sight, turquoise pixelated smoke, hanging chained cauldron with glowing green liquid, skeletal hands and fingers, melted white candles, small glowing flashlight, transparent container filled with orange candy-like pieces, white fangs on the side, hand-painted fantasy game weapon aesthetic, centered three-quarter product view, soft studio lighting, purple-to-orange gradient background, square composition, no people"
+}
