@@ -1,0 +1,65 @@
+```json
+{
+  "title": "Spooky Buster Halloween Blaster",
+  "description": "Senjata blaster futuristik bertema Halloween dengan bodi ungu, laras oranye, dan berbagai ornamen berupa labu, jaring laba-laba, batu nisan, tengkorak, lilin, serta kuali kecil.",
+  "asset_type": "stylized_3d_game_weapon",
+  "composition": {
+    "aspect_ratio": "1:1",
+    "resolution": "1024x1024",
+    "camera_view": "three-quarter close-up",
+    "orientation": "diagonal, dengan moncong mengarah ke kiri atas",
+    "subject_position": "centered"
+  },
+  "object_details": {
+    "name": "Spooky Buster",
+    "body": "Bodi senjata ungu bergaya angular dengan aksen emas dan bentuk menyerupai peti mati.",
+    "barrel": "Laras oranye besar dengan ujung berbentuk labu Halloween retak dan lubang hitam di bagian moncong.",
+    "decorations": [
+      "jaring laba-laba yang melilit laras",
+      "batu nisan kecil bertuliskan RIP di bagian atas",
+      "asap atau api piksel berwarna turquoise",
+      "kuali hitam kecil berisi cairan hijau yang digantung dengan rantai",
+      "tangan dan jari kerangka berwarna tulang",
+      "lilin putih meleleh di bagian bawah tabung oranye",
+      "wadah transparan berisi objek oranye menyerupai permen",
+      "taring putih pada sisi kanan",
+      "lampu kecil dengan cahaya putih hangat"
+    ]
+  },
+  "visible_text": [
+    {
+      "text": "RIP",
+      "location": "batu nisan di bagian atas"
+    },
+    {
+      "text": "SPOOKY BUSTER",
+      "location": "sisi kanan bodi senjata"
+    }
+  ],
+  "visual_style": {
+    "rendering": "stylized low-poly 3D render",
+    "look": "hand-painted game asset dengan beveled geometry",
+    "detail_level": "high",
+    "mood": "playful, spooky, Halloween"
+  },
+  "color_palette": [
+    "deep purple",
+    "violet",
+    "pumpkin orange",
+    "golden yellow",
+    "turquoise",
+    "bone white",
+    "black"
+  ],
+  "background": {
+    "type": "simple gradient studio backdrop",
+    "colors": [
+      "purple",
+      "magenta",
+      "warm orange"
+    ]
+  },
+  "lighting": "Pencahayaan lembut dengan pantulan hangat pada permukaan oranye dan rim light halus pada bodi ungu.",
+  "generation_prompt": "A highly detailed stylized low-poly 3D Halloween blaster called Spooky Buster, angular purple coffin-shaped body with gold trim, large orange pumpkin-shaped muzzle pointing diagonally toward the upper left, spiderwebs wrapped around the barrel, small RIP tombstone sight, turquoise pixelated smoke, hanging chained cauldron with glowing green liquid, skeletal hands and fingers, melted white candles, small glowing flashlight, transparent container filled with orange candy-like pieces, white fangs on the side, hand-painted fantasy game weapon aesthetic, centered three-quarter product view, soft studio lighting, purple-to-orange gradient background, square composition, no people"
+}
+```
